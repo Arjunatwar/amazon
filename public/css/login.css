@@ -1,0 +1,32 @@
+.login form{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    width: 30vw;
+}
+.login input{
+    margin: 10px 78px;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+    align-items: center;
+    justify-content: center;
+}
+.login input:focus {
+    border-color: #007BFF;
+}
+.login a{
+    text-decoration: none;
+    color: red;
+}
+.container1{
+    margin-bottom: -10px;
+    height: 58vh;
+}

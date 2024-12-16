@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #b6c1c1;
+}
+.head{
+    display: flex;
+    background-color: white;
+}
+.Logo img{
+    width:100px;
+    padding: 15px;
+    cursor: pointer;
+}
+.address{
+    margin: 25px;
+    font-family: "Parkinsans", sans-serif;
+    cursor: pointer;
+}
+.Search{
+    margin: 25px;
+}
+.Search input{
+    max-width: 60vw;
+    width: 50vw;
+    height: 25px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.Search input:focus{
+    border:2px solid cyan;
+}
+.Search i{
+    padding:0 15px;
+    cursor:pointer;
+}
+.account{
+    margin: 25px;
+    cursor: pointer;
+}
+.account a{
+    text-decoration: none;
+    color: black;
+}
+.cart{
+    margin: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.container > img{
+    max-width: 100%;
+    width:100vw;
+    max-height:70%;
+    z-index: -1;
+    position: absolute;
+}
+nav{
+    background-color: rgb(30, 27, 35);
+    color: white;
+    height: 55px;
+}
+nav ul{
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li{
+    list-style: none;
+    padding: 15px;
+    margin: 2px 12px;
+    cursor: pointer;
+}
+nav li:hover{
+    border: 2px solid white;
+}
+.box-data{
+    z-index: 1;
+    display: flex;
+    margin-top: 12em;
+}
+.container{
+    display: flex;
+}
+.items img{
+    max-width: 65px;
+    padding: 10px;
+    cursor: pointer;
+    margin:2px;
+    margin-left:15px;
+}
+.items{
+    background-color: white;
+    border: 2px solid black;
+    margin: 25px;
+    width: 250px;
+    text-align: center;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+.items:hover{
+    border-radius: 10px;
+}
+.vid{
+    display: flex;
+    background-color: white;
+    margin:52px;
+    border-radius: 4px;
+}
+.vid video{
+    margin:33px;
+    max-width:23em;
+}
+.shots{
+    display: flex;
+    background-color: white;
+    font-weight: bold;
+    margin:25px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+}
+.shots img{
+    padding: 10px;
+    margin: 4px;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    font-size:25px;
+    font-weight: bold;
+    margin: 15px;
+}
